@@ -1,1 +1,42 @@
+POST http://localhost:3000/api/users/signup
+Content-Type: application/json
 
+{
+  "username": "testuser2",
+  "email": "testuser2@example.com",
+  "name": "Test User",
+  "password": "password123"
+}
+
+###
+
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+  "username": "3423",
+  "password": "password123"
+}
+
+###
+
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+  "username": "testuser2",
+  "password": "password123"
+}
+
+###
+
+GET http://localhost:3000/api/
+
+###
+
+GET http://localhost:3000/api/
+Authorization: Bearer 445jr4fjlrjflkrfjklr
+
+###
+GET http://localhost:3000/api/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInVzZXJuYW1lIjoidGVzdHVzZXIyIiwiaWF0IjoxNzcwMDc1NTQ5LCJleHAiOjE3NzAwNzkxNDl9.cEFLHchoKyid9PxxiBJK-cecB_wD5yEzAOa3Z14gDuc
