@@ -1,1 +1,39 @@
+POST http://localhost:3000/api/users/signup
+Content-Type: application/json
 
+{
+  "email": "a2@a.com",
+  "name": "kia2",
+  "username": "kia2",
+  "password": "1234"
+}
+
+###
+
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+  "username": "x",
+  "password": "1234"
+}
+
+###
+
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+  "username": "kia",
+  "password": "1234"
+}
+
+###
+
+GET http://localhost:3000/api/
+
+
+###
+
+GET http://localhost:3000/api
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoia2lhIiwiaWF0IjoxNzcwMDU0NzI3LCJleHAiOjE3NzAwNTgzMjd9.Qeppbln7YOelT3tzqsbbVkvM3_FeS_dqHtXsf1IpFRA
